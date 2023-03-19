@@ -1,0 +1,4 @@
+train: '/content/drive/MyDrive/cp1/dataset/train.txt'
+val: '/content/drive/MyDrive/cp1/dataset/val.txt'
+nc: 2
+names: ['과적차량', '정상차량']
