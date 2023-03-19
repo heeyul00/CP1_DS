@@ -40,7 +40,7 @@ def detect_and_save(model, cap, out):
         # 이미지에 바운딩 박스 그리기
         start_time = time.time()
         results = model(frame_rgb)
-        print(f"Frame {frame_count}: Detection took {time.time() - start_time:.2f} seconds")
+        print(f"Frame {frame_count}: 탐지 진행중.. {time.time() - start_time:.2f} seconds")
         img = results.render()[0]
 
         # YOLOv5에서 반환된 이미지를 OpenCV 형식으로 변환
